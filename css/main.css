@@ -1,0 +1,42 @@
+/*-------- GLOBAL STYLES -------*/
+html {
+    font-size: 15px;
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1em;
+    font-family: 'Outfit', sans-serif;
+    color: hsl(220, 15%, 55%);
+    background-color: hsl(212, 45%, 89%);
+}
+
+h1 {
+    color: hsl(218, 44%, 22%);
+}
+
+.content {
+    background-color: hsl(0, 0%, 100%);
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 10px 10px 12px rgba(123, 135, 157, .05);
+}
+
+.content, 
+img {
+    border-radius: 5%;
+    max-width: 320px;
+}
+
+/* ------- OTHER STYLES --------*/
+.text {
+    padding: 0 15px 10px 15px;
+}
+
+a:visited {
+    color: darkblue;
+}
