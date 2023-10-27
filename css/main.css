@@ -1,4 +1,8 @@
 /*-------- GLOBAL STYLES -------*/
+* {
+    box-sizing: border-box;
+}
+
 html {
     font-size: 15px;
     height: 100%;
@@ -24,12 +28,16 @@ h1 {
     padding: 20px;
     text-align: center;
     box-shadow: 0 10px 10px 12px rgba(123, 135, 157, .05);
+    max-width: 350px;
 }
 
 .content, 
 img {
     border-radius: 5%;
-    max-width: 320px;
+}
+
+img {
+    width: 100%;
 }
 
 /* ------- OTHER STYLES --------*/
